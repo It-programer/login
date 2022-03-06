@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.home{
+	width: 100%;
+	height: 100vh;
+	background-image: url(img/background.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.info{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background-color: black;
+   border: 1px solid #fff;
+	width: 400px;
+	height:450px;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 20px;
+	opacity: 0.6;
+
+}
+
+
+p{
+	margin: 5px;
+	padding: 0;
+	font-weight:bold;
+	color: #fff;
+	font-size: 20px;
+}
+
+
+ .info input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.info input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: lowercase;
+
+}
+
+.info input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background:gray;
+	font-size: 18px;
+	border-radius: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.info input[type="submit"]:hover{
+	cursor: pointer;
+	border: 1px solid black;
+	
+}
+.info a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color:#fff ;
+}
+
+.info a:hover{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h1{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 10px;
+	padding: 0 10px 5px;
+	text-transform: capitalize;
+	top: 0;
+}
